@@ -7,8 +7,8 @@ class CanvasSlime {
         this.radius = radius;
     }
 
-    attack() {
-        this.health -= attackDamage;
+    attack(damage) {
+        this.health -= damage;
     }
 
     kill() {

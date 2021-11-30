@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/bootstrap.min.css">
-    <title>Todo Example</title>
+    <title>Slime Grinder</title>
 </head>
 
 <body>
@@ -24,7 +24,10 @@
 
     <div id="attack-div">
         <canvas id="attack-canvas" width="600" height="400" style="border: 1px solid black;"></canvas>
-        <p id='attack-info-p'>1 Damage/Attack</p>
+        <button id='damage-btn' type='button' style="display: block; margin: 10px 0px;">Increase Attack Damage</button>
+        <button id='radius-btn' type='button' style="display: block; margin: 10px 0px;">Increase Attack Radius</button>
+        <button id='max-slimes-btn' type='button' style="display: block; margin: 10px 0px;">Increase Max Slimes</button>
+        <button id='spawn-rate-btn' type='button' style="display: block; margin: 10px 0px;">Increase Spawn Rate</button>
     </div>
 
     <hr>
@@ -36,6 +39,7 @@
     <button id='bomber-btn' type='button' style="display: block; margin: 10px 0px;">Purchase Bomber</button>
 
     <script src="CanvasSlime.js"></script>
+    <script src="SlimeCanvas.js"></script>
     <script src="unit.js"></script>
     <script src="script.js"></script>
 </body>
